@@ -1,0 +1,1 @@
+export default function Page() { return <main dir="rtl" className="p-8"><h1>إعدادات الدفع والعملة</h1><p>العملة المعتمدة: الجنيه المصري (EGP). الدفع عند الاستلام فقط، ولا يتم جمع بيانات البطاقات البنكية.</p></main>; }
