@@ -97,6 +97,10 @@ export default function ProductPageClient({ id, initialProduct }: { id: string; 
     storage: resolvedStorage,
     originalPrice,
     salePrice,
+    // exchangeRate must be carried explicitly — activeStorage prices override
+    // originalPrice/salePrice above but the spread of product ensures the
+    // root-level exchangeRate is always present for PriceEquivalent.
+    exchangeRate: product.exchangeRate,
     image: activeVariant?.images?.[0] ?? product.image,
     images: activeVariant?.images?.length ? activeVariant.images : product.images,
   };
