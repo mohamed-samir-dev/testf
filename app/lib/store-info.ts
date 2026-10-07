@@ -4,10 +4,10 @@ export const STORE_INFO = {
   tagline: 'للتقنية والإلكترونيات',
   description: 'برج المبدع للتقنية والإلكترونيات. تسوّق أجهزتك وادفع عند الاستلام.',
   logo: '/logo.webp',
-  phone: '01552456445',
-  internationalPhone: '+201552456445',
-  telephoneUrl: 'tel:+201552456445',
-  whatsappUrl: 'https://wa.me/201552456445',
+  phone: '01552456225',
+  internationalPhone: '+201552456225',
+  telephoneUrl: 'tel:+201552456225',
+  whatsappUrl: 'https://wa.me/201552456225',
 } as const;
 export const FOOTER_LINKS = [
   { label: 'عن برج المبدع للتقنية', href: '/about' },
